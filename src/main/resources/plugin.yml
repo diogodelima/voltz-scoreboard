@@ -1,0 +1,4 @@
+name: voltz-scoreboard
+version: '${project.version}'
+main: pt.dioguin.scoreboard.ScoreBoardPlugin
+depend: [Vault, PlayerPoints, Factions, MassiveCore]

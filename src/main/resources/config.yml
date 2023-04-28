@@ -1,0 +1,73 @@
+scoreboard:
+  default: #default if you want this score for any world
+    title: "&f[{faction_tag}] {faction_name}"
+    lines:
+      - ""
+      - " &fPoder: &b{current_power}/{power_max}"
+      - " &fCoins: &b{coins}"
+      - " &fCash: &b{cash}"
+      - ""
+      - " &e{your_faction_name}"
+      - "  &fOnline: &e{your_faction_current_online}/{your_faction_max_online}"
+      - "  &fPoder: &e{your_faction_current_power}/{your_faction_power_max}"
+      - "  &fTerras: &e{your_faction_land_count}"
+      - ""
+      - "&bloja.redevoltz.com"
+    no-faction:
+      lines:
+        - ""
+        - " &fPoder: &b{current_power}/{power_max}"
+        - " &fCoins: &b{coins}"
+        - " &fCash: &b{cash}"
+        - ""
+        - "  &cSem facção"
+        - ""
+        - "&bloja.redevoltz.com"
+  mina: #name of the world you want
+    title: "&7Mundo de Mineração"
+    lines:
+      - ""
+      - " &fPoder: &b{current_power}/{power_max}"
+      - " &fCoins: &b{coins}"
+      - " &fCash: &b{cash}"
+      - ""
+      - " &e{your_faction_name}"
+      - "  &fOnline: &e{your_faction_current_online}/{your_faction_max_online}"
+      - "  &fPoder: &e{your_faction_current_power}/{your_faction_power_max}"
+      - "  &fTerras: &e{your_faction_land_count}"
+      - ""
+      - "&bloja.redevoltz.com"
+    no-faction:
+      lines:
+        - ""
+        - " &fPoder: &b{current_power}/{power_max}"
+        - " &fCoins: &b{coins}"
+        - " &fCash: &b{cash}"
+        - ""
+        - "  &cSem facção"
+        - ""
+        - "&bloja.redevoltz.com"
+  arena: #name of the world you want
+    title: "&cArena"
+    lines:
+      - ""
+      - " &fPoder: &b{current_power}/{power_max}"
+      - " &fCoins: &b{coins}"
+      - " &fCash: &b{cash}"
+      - ""
+      - " &e{your_faction_name}"
+      - "  &fOnline: &e{your_faction_current_online}/{your_faction_max_online}"
+      - "  &fPoder: &e{your_faction_current_power}/{your_faction_power_max}"
+      - "  &fTerras: &e{your_faction_land_count}"
+      - ""
+      - "&bloja.redevoltz.com"
+    no-faction:
+      lines:
+        - ""
+        - " &fPoder: &b{current_power}/{power_max}"
+        - " &fCoins: &b{coins}"
+        - " &fCash: &b{cash}"
+        - ""
+        - "  &cSem facção"
+        - ""
+        - "&bloja.redevoltz.com"
